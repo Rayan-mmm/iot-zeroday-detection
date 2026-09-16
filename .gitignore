@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data (too large for git)
+data/raw/*
+data/processed/*
+data/raw_datasense/*
+data/processed_datasense/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/raw_datasense/.gitkeep
+!data/processed_datasense/.gitkeep
+
+# Results / logs (keep folder, ignore contents)
+results/*
+logs/*
+!results/.gitkeep
+!logs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/settings.json
